@@ -1,0 +1,52 @@
+@import "../../../variables";
+
+.container{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  background-color: rgba(0, 0, 0, .9);
+  z-index: 10;
+  flex-direction: column;
+
+  .menuWrapper{
+    .menu{
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      padding-top: 70px;
+      padding-left: 40px;
+
+      @media screen and (max-width: 1370px){
+
+      }
+
+      .item{
+        margin-bottom: 20px;
+      }
+
+      .select {
+        color: white;
+        display: inline;
+        background-repeat: no-repeat;
+        background-position: center bottom 1px;
+        background-size: 100% 3px;
+        background-image: linear-gradient(90deg, #B738FE 0%, #1264EA 100%);
+        padding: 0px 0px 6px;
+      }
+
+      .unselect {
+        color: #8A98B3;
+        opacity: 0.65;
+      }
+    }
+  }
+
+  .sidebar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

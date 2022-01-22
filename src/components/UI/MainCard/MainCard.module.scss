@@ -1,0 +1,89 @@
+@import "../../../general";
+
+.mainCard {
+  width: 470px;
+  //width: 100%;
+  background: #0C0C0C;
+  box-shadow: 0px 20px 35px rgba(12, 12, 12, 0.35);
+  border-radius: 8px;
+  padding: 27px 41px 31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+  margin-right: 30px;
+  @media screen and (max-width: 510px){
+    width: 100%;
+  }
+  @media (min-width: 1460px){
+    .mainCard  {
+      margin-right: 30px;
+    }
+  }
+  .mainStars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 1;
+    height: 50px;
+  }
+  .star{
+    width: 22px;
+    position: relative;
+    z-index: 2;
+  }
+  .mainStars::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    background: url(../../../assets/img/ic_action_star.png) center center;
+    background-size: cover;
+    opacity: .1;
+}
+
+  .content{
+    width: 100%;
+    max-width: 300px;
+    .title{
+      font-family: Acrom, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: left;
+      color: #FFFFFF;
+    }
+    .greenLine{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: 25px;
+      height: 3px;
+      background: linear-gradient(90deg, #8CD23C 0%, #417A00 100%);
+    }
+    .body{
+      font-family: TT Norms, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      /* or 143% */
+
+      letter-spacing: 0.02em;
+
+      color: #7A8297;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .mainStars{
+    width: 72px;
+  }
+}

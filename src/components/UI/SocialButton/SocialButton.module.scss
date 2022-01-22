@@ -1,0 +1,46 @@
+@import "../../../general";
+
+.socialWrapper {
+  position: relative;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+
+  .social {
+    width: 55px;
+    height: 55px;
+    display: block;
+    border: 3px solid transparent;
+    background: linear-gradient(36.87deg, #B139FE 18.57%, #1E61EB 80.26%) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .icon {
+    position: absolute;
+    //z-index: 100;
+    width: 22px;
+    left: 50%;
+    top: 29px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+@media (max-width:1370px){
+  .socialWrapper{
+    display:none;
+  }
+}

@@ -1,0 +1,42 @@
+@import "../../variables";
+
+.item {
+  width: 100%;
+  max-width: 300px;
+  padding: 18px 24px;
+  min-width: 200px;
+
+  background: rgba(226, 227, 243, 0.65);
+  /* SHW */
+
+  box-shadow: 0px 25px 35px rgba(226, 227, 243, 0.65);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .content{
+    .title{
+      font-family: Acrom, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      margin-bottom: 6px;
+      color: #ABB1D2;
+    }
+
+    .data{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 0;
+      color: #000000;
+    }
+  }
+
+  .icon {
+
+  }
+}

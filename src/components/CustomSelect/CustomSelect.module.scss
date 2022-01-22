@@ -1,0 +1,42 @@
+@import "../../general";
+
+.wrapper {
+  width: 100%;
+  max-width: 220px;
+  background: rgba(226, 227, 243, 0.65);
+  box-shadow: 0px 25px 35px rgba(226, 227, 243, 0.65);
+  border-radius: 4px;
+  padding: 17px 24px 19px;
+  margin-bottom: 18px;
+  .title{
+    font-family: TT Norms, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #C8CAE2;
+  }
+
+  select {
+    border: none;
+    background-color: transparent;
+    padding-left: 0;
+    font-family: TT Norms, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0B0C10;
+  }
+  .option{
+    background-image: url(../../assets/img/automat.png);
+    :before{
+      content: url("../../assets/img/automat.png");
+      position:relative; /*or absolute*/
+      z-index:100000; /*a number that's more than the modal box*/
+      left:-50px;
+      top:10px;
+    }
+  }
+}

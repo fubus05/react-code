@@ -1,0 +1,141 @@
+.overall-balance,
+.two-button-balance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 14px;
+}
+.alltime-balance{
+    width: 240px;
+    height: 115px;
+    left: 715px;
+    top: 312px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 35px rgba(226, 227, 243, 0.65);
+    border-radius: 4px;
+    margin-right: 14px;
+}
+.text-date-balance{
+    position: relative;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    font-family: Acrom;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.redirect-block-balance{
+        height: 17px;
+        position: relative;
+        top: 17px;
+        left: 64px;
+        font-family: Acrom;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+
+}
+.money-one{
+    margin-top:27px;
+    margin-left: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+}
+.text-above-money{
+    margin-left: 29px;
+}
+.one-button-up-balance{
+    width: 240px;
+    height: 65px;
+    left: 981px;
+    top: 330px;
+    background: linear-gradient(90deg, #8CD23C 0%, #417A00 100%);
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    margin-right: 9px;
+}
+.second-button-up-balance{
+    width: 240px;
+    height: 65px;
+    left: 981px;
+    top: 330px;
+    background: linear-gradient(90deg, #FB8267 0%, #CB2828 100%);
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.ic-actions-add-simple{
+    margin-left: 18px;
+}
+.section-block_title-inscription-balance{
+    position: relative;
+height: 19px;
+left: 70px;
+top: 0px;
+font-family: Acrom;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+.section-block_text-inscription_first-balance{
+    position: relative;
+    height: 14px;
+    left: -65px;
+    top: 0px;
+    font-family: Acrom;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #cfd1e4;
+}
+.section-block_text-inscription_secc-balance{
+    position: relative;
+    height: 14px;
+    left: -95px;
+    top: 0px;
+    font-family: Acrom;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color:#8CC14F;
+}
+.history-view-section_block-table{
+    display: flex;
+    width: 85px;
+    padding: 10px;
+    flex: 1 1;
+    color: #BDC6DA;
+}
+.balabance{
+    color: #BDC6DA;
+}
+.blakabance{
+    left: 120px;
+    color: #BDC6DA;
+}
+.brikabance{
+    color: #BDC6DA;
+}
+.babybanace{
+    left: 110px;
+    color: #BDC6DA;
+}
+.babybanace-img-first{
+    margin-left: 17px;
+}

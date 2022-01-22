@@ -1,0 +1,59 @@
+@import url(//db.onlinewebfonts.com/c/258f25658f1456fd0206d4fb09b637fe?family=AcromW00-Regular);
+@import url(//db.onlinewebfonts.com/c/07bc241768c969f6b6a27a7bf0dfb490?family=TT+Norms+Regular);
+.btn-primary-btn{
+    background: linear-gradient(36.87deg, #B139FE 18.57%, #1E61EB 80.26%);
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.btnws{
+    width: 189px;
+    height: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    font-family: "TT Norms Regular";
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.btn-s{
+    width: 180px;
+    height: 35px;
+    background: linear-gradient(36.87deg, #B139FE 18.57%, #1E61EB 80.26%);
+    border-radius: 100px;
+    font-family: "AcromW00-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btn-s > p{
+    white-space: nowrap;
+}
+
+.btn-sp{
+    width: 189px;
+    height: 50px;
+    background: linear-gradient(36.87deg, #B139FE 18.57%, #1E61EB 80.26%);
+    border-radius: 100px;
+    font-family: "AcromW00-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.btn-primary-img-btn{
+    margin-left: 10px;
+    margin-top: -16px;
+}

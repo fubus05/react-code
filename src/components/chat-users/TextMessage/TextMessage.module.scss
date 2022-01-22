@@ -1,0 +1,72 @@
+@import "../../../general";
+
+.textMessage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 473px;
+  margin-bottom: 30px;
+
+  .textBody{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 373px;
+    height: 62px;
+    background: #F3F7FF;
+    border-radius: 120px;
+    padding: 21px 26px;
+
+    .arrowLeft {
+      position: absolute;
+      width: 42px;
+      height: 34px;
+      left: -5px;
+      top: 10px;
+      background: #F3F7FF;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+
+    .arrowRight {
+      position: absolute;
+      width: 42px;
+      height: 34px;
+      right: -5px;
+      top: 16px;
+      background: #F3F7FF;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+
+    .msg{
+      z-index: 10;
+      font-family: Acrom, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 25px;
+      color: #8F96A4;
+    }
+    .dateWrapper{
+      width: 140px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .date{
+        font-family: Acrom, sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+        color: #A4B0C7;
+      }
+    }
+  }
+}

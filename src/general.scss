@@ -1,0 +1,97 @@
+@import "variables";
+@font-face {
+  font-family: Lazar;
+  src: url('../src/assets/fonts/Lazar/Lazar-1389.otf')
+  format('opentype');
+}
+
+.card {
+  border: none;
+  background-color: transparent;
+}
+
+.float-button {
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0;
+  left: 95%;
+  width: 65px;
+  height: 65px;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+
+  &:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+  }
+}
+
+
+h5{
+  font-family: 'Acrom-Bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+.btnGreen{
+  max-width: 160px;
+  padding: 19px 50px;
+}
+.btn {
+  width: 100%;
+  height: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  font-family: "TT Norms", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.btn-light{
+  background: #E1E1F1;
+  color: #FFFFFF;
+}
+
+.btn-success {
+  background: linear-gradient(90deg, #8CD23C 0%, #417A00 100%);
+  height: 55px;
+  border-radius: 100px;
+  font-family: TT Norms, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+@media (max-width: 450px) {
+  .btnGreen{
+    max-width: 120px;
+    padding: 19px 30px;
+    margin-left:10px;
+  }
+}
+.btn-primary {
+  height: 66px;
+  background: linear-gradient(36.87deg, #B139FE 18.57%, #1E61EB 80.26%);
+  border-radius: 100px;
+  font-family: Acrom, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}

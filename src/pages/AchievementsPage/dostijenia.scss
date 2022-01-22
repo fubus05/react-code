@@ -1,0 +1,137 @@
+@import url(//db.onlinewebfonts.com/c/58c60772e4cb7cb27e8e938be716df7f?family=AcromW00-Thin);
+@import url(//db.onlinewebfonts.com/c/1fac402bc52f3a8476a575974513aecb?family=Acrom+Bold);
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #f3f7ff;
+}
+
+div {
+  display: block;
+}
+
+img {
+  border-style: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.dostijenia-container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.title-background {
+  position: absolute;
+  width: 200px;
+}
+
+.dostijenia-title {
+  display: flex;
+  position: relative;
+  padding: 23px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dostijenia-title_inscription {
+  z-index: 1;
+  font-family: "AcromW00-Thin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dostijenia-title_inscription::after {
+  content: " ";
+  background: linear-gradient(36.87deg, #b139fe 18.57%, #1e61eb 80.26%);
+  border-radius: 100px;
+  width: 35px;
+  height: 5px;
+  margin-top: 10px;
+}
+
+.dostijenia-section {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.dostijenia-item {
+  width: 260px;
+  height: 100px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 25px 35px rgba(226, 227, 243, 0.65);
+  border-radius: 8px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 28px;
+}
+
+.transparent-dostijenia_item {
+  opacity: 0.5;
+}
+
+.dostijenia-item_picture {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  left: 27px;
+  top: 27px;
+
+  filter: drop-shadow(0px 25px 35px rgba(226, 227, 243, 0.65));
+}
+
+.dostijenia-item_title {
+  position: relative;
+  width: 84px;
+  height: 17px;
+  left: 85px;
+  top: -17px;
+
+  font-family: "Acrom Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.dostijenia-item_inscription {
+  position: relative;
+  width: 122px;
+  height: 14px;
+  left: 85px;
+  top: -12px;
+
+  font-family: "AcromW00-Thin";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #c5cfe4;
+}

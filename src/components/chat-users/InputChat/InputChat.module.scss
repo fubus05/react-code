@@ -1,0 +1,34 @@
+@import "../../../general";
+
+.inputChatContainer {
+  border: 1px solid rgba(228, 233, 244, 1);
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 30px 25px 25px 30px;
+  margin-bottom: 20px;
+
+  .inputLabel{
+    font-family: Acrom, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BAC9E6;
+    opacity: 0.85;
+  }
+
+  .inputBlock{
+    display: flex;
+    align-items: center;
+
+    .inputField{
+      width: 100%;
+      border: none;
+      height: 25px;
+    }
+
+    .btnClip{
+      margin-left: 22px;
+    }
+  }
+}

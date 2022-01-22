@@ -1,0 +1,23 @@
+@import "../../../general";
+
+.serviceMessage {
+  width: 100%;
+  background: #EEF4FF;
+  box-shadow: 0px 15px 35px rgba(233, 236, 248, 0.25);
+  border-radius: 6px;
+  padding: 25px 27px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+
+  .message{
+    font-family: Acrom, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 0;
+    margin-left: 21px;
+  }
+}

@@ -1,0 +1,353 @@
+@import 'mobile.scss';
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+div {
+  display: block;
+}
+
+img {
+  border-style: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.guarantee-container {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.guarantee-title {
+  display: flex;
+  position: relative;
+  padding: 23px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title-background {
+  position: absolute;
+  width: 200px;
+}
+
+.guarantee-title_inscription {
+  z-index: 1;
+  font-family: Acrom;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guarantee-title_inscription::after {
+  content: " ";
+  background: linear-gradient(36.87deg, #b139fe 18.57%, #1e61eb 80.26%);
+  border-radius: 100px;
+  width: 35px;
+  height: 5px;
+  margin-top: 10px;
+}
+
+.guarantee-section {
+  display: flex;
+  grid-gap: 20px;
+  gap: 20px;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .guarantee-section {
+    flex-direction: row;
+  }
+}
+
+.section_block {
+  display: flex;
+  padding: 18px;
+  background: #fff;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.section-block_image {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 20px;
+}
+
+.image_circle {
+  background: linear-gradient(223.77deg, #5e92ff 0%, #b23bfe 89.66%);
+  border-radius: 0px 100px 100px 100px;
+  padding: 32px;
+  position: relative;
+  z-index: 1;
+}
+
+.image_circle > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-dots {
+  position: absolute;
+  right: 5px;
+  top: 0px;
+}
+
+.section-block_inscription {
+  position: relative;
+}
+
+.inscription-title_text {
+  font-family: Acrom;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0c0c0c;
+  z-index: 1;
+  position: relative;
+}
+
+.inscription-underline {
+  width: 30px;
+  height: 3px;
+  background: linear-gradient(90deg, #8cd23c 0%, #417a00 100%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.second-dots {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+}
+
+.inscription-main_text {
+  font-family: Acrom;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  color: #adbad5;
+}
+
+.guarantee-second_title {
+  display: flex;
+  position: relative;
+  padding: 23px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.second-title_dots {
+  position: absolute;
+  width: 200px;
+}
+
+.second_title_text {
+  z-index: 1;
+  font-family: Acrom;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-title_inscription::after {
+  background: linear-gradient(90deg, #8cd23c 0%, #417a00 100%) !important;
+}
+
+.second_title_text::after {
+  content: " ";
+  background: linear-gradient(36.87deg, #b139fe 18.57%, #1e61eb 80.26%);
+  border-radius: 100px;
+  width: 35px;
+  height: 5px;
+  margin-top: 10px;
+}
+
+.more-website_info {
+  display: grid;
+  grid-gap: 20px;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .more-website_info {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.more-website_info-block {
+  display: flex;
+  padding: 18px;
+  background: #fff;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.website_info-image_block {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 20px;
+}
+
+.image-block_circle {
+  background: linear-gradient(223.77deg, #5e92ff 0%, #b23bfe 89.66%);
+  border-radius: 0px 100px 100px 100px;
+  padding: 32px;
+  position: relative;
+  z-index: 1;
+}
+
+.image-block_picture {
+  border-radius: 100px 100px 100px 0px !important;
+  background: linear-gradient(90deg, #8cd23c 0%, #417a00 100%) !important;
+}
+
+.image-block_circle > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.guarantee-dots_image {
+  position: absolute;
+  right: 5px;
+  top: 0px;
+}
+
+.guarantee-main_text-block {
+  position: relative;
+}
+
+.inscription-title_text-underline {
+  width: 30px;
+  height: 3px;
+  background: linear-gradient(90deg, #8cd23c 0%, #417a00 100%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title-text_right-dots {
+  position: absolute;
+  right: 40%;
+  top: 0px;
+}
+
+.guarantee-main_text-block_text {
+  font-family: Acrom;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  color: #adbad5;
+}
+
+.sertificate-button_block {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.sertificate-text {
+  min-width: 120px;
+  padding: 0 39.75px;
+  min-height: 41.25px;
+  border-radius: 75px;
+  font-size: 10.5px;
+  font-weight: bold;
+  line-height: 12.75px;
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "TT Norms Pro", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  grid-gap: 15px;
+  gap: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.sertificate-inscription {
+  min-width: 160px;
+  padding: 0 53px;
+  min-height: 55px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+}
+
+.sertificate-button {
+  color: #b0b0d1;
+  background: #e1e1f1;
+}
+
+.sertificate-text::before {
+  border-radius: 75px;
+}
+
+.sertificate-inscription::after {
+  filter: blur(25px);
+}
+
+.sertificate-button::after {
+  background: #e1e1f1;
+}
+
+.sertificate-text::after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 4px;
+  opacity: 0.45;
+  transition-timing-function: ease-in-out;
+  transition-property: transform, opacity;
+  transition-duration: 0.2s, 1s;
+  will-change: transform, opacity;
+}

@@ -1,0 +1,45 @@
+@import "../../../general";
+
+.container {
+  width: 100%;
+  max-width: 380px;
+  position: relative;
+  padding: 44px;
+
+  .dotsLeft{
+    position: absolute;
+    left: 24px;
+    top: 30px;
+  }
+
+  .dotsRight{
+    position: absolute;
+    top: 46px;
+    right: 76px;
+  }
+
+  .title{
+    font-family: 'Acrom-Bold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 34px;
+  }
+
+  .listDesc {
+    list-style: decimal-leading-zero !important;
+    font-family: "TT Norms", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8FA0C4;
+
+    li{
+      margin-bottom: 30px;
+    }
+  }
+
+}

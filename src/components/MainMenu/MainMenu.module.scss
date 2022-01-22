@@ -1,0 +1,24 @@
+@import "../../general";
+
+.menu{
+  list-style-type: none;
+  display: flex;
+  @media screen and (max-width: 1370px){
+    padding-left: 80px;
+  }
+
+  .select {
+    color: white;
+    display: inline;
+    background-repeat: no-repeat;
+    background-position: center bottom 1px;
+    background-size: 100% 3px;
+    background-image: linear-gradient(90deg, #B738FE 0%, #1264EA 100%);
+    padding: 0px 0px 6px;
+  }
+
+  .unselect {
+    color: #8A98B3;
+    opacity: 0.65;
+  }
+}

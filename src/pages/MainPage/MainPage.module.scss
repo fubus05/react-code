@@ -1,0 +1,293 @@
+@import "../../general";
+@import url(//db.onlinewebfonts.com/c/258f25658f1456fd0206d4fb09b637fe?family=AcromW00-Regular);
+.main {
+  display: grid;
+  background: url("../../assets/img/main-bg.png") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+
+  .navBarMain{
+    display: none;
+
+    @media screen and (max-width: 1200px){
+      display: block;
+    }
+  }
+
+  .navBarMob{
+    display: none;
+    @media screen and (max-width: 768px){
+      display: block;
+      margin-bottom: 50px;
+    }
+  }
+
+  .dots {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-height: 80vh;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+
+    .header {
+      margin: 60px 30px 20px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media screen and (max-width: 1370px){
+      }
+
+      @media screen and (max-width: 1200px){
+        display: none;
+      }
+
+      .logo {
+        max-width: 200px;
+        @media screen and (max-width: 1370px){
+          margin-bottom: 30px;
+        }
+      }
+
+      .menuWrapper {
+        //width: 100%;
+        //max-width: 850px;
+        @media screen and (max-width: 1370px){
+          margin-bottom: 10px;
+        }
+      }
+
+      .btnWrapper {
+        width: 235px;
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width: 1370px){
+          width: 100%;
+          margin-bottom: 10px;
+          justify-content: space-between;
+
+        }
+      }
+    }
+
+    .body {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media screen and (max-width: 1370px){
+        flex-direction: column;
+      }
+
+      .leftSide {
+        position: relative;
+        max-width: 718px;
+        margin-left: 30px;
+        @media screen and (max-width: 510px){
+          padding-left: 0;
+        }
+
+        .onlineDeal {
+          font-family: Lazar;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 190px;
+    line-height: 220px;
+    -webkit-text-stroke: 1px white;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0);
+    opacity: 0.15;
+    position: absolute;
+    left: 0;
+          @media screen and (max-width: 600px){
+            font-size: 70px;
+          }
+          @media (max-width:1200px) {
+            font-size: 170px;
+          }
+        }
+
+        .contentBlock {
+          display: grid;
+          top: 0;
+          text-align: left;
+          .title {
+            font-family: "AcromW00-Regular", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 42px;
+            line-height: 50px;
+            color: #FFFFFF;
+            @media (max-width: 1200px) {
+              font-size: 21px;
+            }
+          }
+
+          .greenLine {
+            margin-bottom: 22px;
+            width: 65px;
+            height: 4px;
+            background: linear-gradient(90deg, #8CD23C 0%, #417A00 100%);
+          }
+
+          .description {
+            font-family: "AcromW00-Regular", sans-serif;
+            font-style: normal;
+            max-width: 528px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 35px;
+            color: #FFFFFF;
+            margin-bottom: 36px;
+            @media (max-width:1200px) {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+      .rightSide {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 34px;
+        @media screen and (max-width: 1350px){
+          margin-top: 100px;
+        }
+        @media screen and (max-width: 650px){
+          margin: 20px 18px 0px 18px;
+          flex-direction: column-reverse;
+          justify-content: center;
+          align-items: center;
+
+        }
+        .cardWrapper {
+
+        }
+
+        .vWrapper{
+          width: 100%;
+          .verticalBox {
+            position: relative;
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+            margin:0px;
+            padding:0px;
+            @media screen and (max-width: 650px){
+              -webkit-transform: rotate(0);
+              -moz-transform: rotate(0);
+              -ms-transform: rotate(0);
+              -o-transform: rotate(0);
+              transform: rotate(0);
+            }
+
+            .whyBg {
+              display: flex;
+              top: 50px;
+              font-family: Lazar;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 100px;
+              /* identical to box height */
+              -webkit-text-stroke: 1px white;
+
+              letter-spacing: 0.05em;
+              text-transform: uppercase;
+              letter-spacing: 0.05em;
+              color: rgba(0, 0, 0, 0);
+              //background-color: white;
+              opacity: 0.05;
+              //border: 2px solid #FFFFFF;
+              margin-top: 34px;
+            }
+
+            .whyContent {
+              position: absolute;
+              width: 390px;
+              top: 58px;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+
+              @media screen and (max-width: 510px){
+                margin-top: 100px;
+                width: 100%;
+              }
+
+              .vLine {
+                width: 140px;
+                height: 1px;
+                background: linear-gradient(90deg, #8CD23C 0%, #417A00 100%);
+              }
+
+              .vText {
+                font-family: TT Norms, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                letter-spacing: 0.15em;
+                margin-bottom: 0;
+                color: #FFFFFF;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .footer {
+      .copyRight {
+        font-family: TT Norms, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        color: #FFFFFF;
+        opacity: 0.35;
+        max-width: 516px;
+        margin-left: 30px;
+      }
+    }
+  }
+
+}
+
+@media (max-height: 800px)
+{.contentBlock,
+.MainPage_onlineDeal {
+    transform: scale(0.8);
+}}
+@media (max-width: 1470px){
+  .vWrapper {
+    display: none;
+  }
+}
+@media (max-width: 1370px) {
+  .footer{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .onlineDeal{
+    font-size: 150px;
+  }
+}
+.card-adaption{
+  margin-right: 30px;
+}
